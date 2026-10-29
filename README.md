@@ -158,6 +158,6 @@ Modules that go beyond what the log records (intraday view, alerts, Shapley attr
 ## Limitations
 
 - Synthetic data: patterns are realistic but designed, so findings demonstrate method, not results.
-- Three months of history cannot capture annual seasonality; promotions are not yet a forecast feature.
-- SQLite suits a single-node demo. Production would use a server warehouse, scheduled orchestration (Airflow or similar) and SSO in front of the API.
-- The offline copilot extracts sentences; it does not reason across documents. With a model it does, but every answer must still be checked against its citations.
+- Historical Data: Three months of history cannot capture annual seasonality; promotions are not yet a forecast feature.
+- Infrastructure: SQLite suits a single-node demo. Production would use a server warehouse, scheduled orchestration (Airflow or similar) and SSO in front of the API.
+- Offline Copilot: The offline copilot extracts sentences; it does not reason across documents. With a model it does, but every answer must still be checked against its citations.
